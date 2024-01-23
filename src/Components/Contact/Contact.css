@@ -1,0 +1,171 @@
+.contSecond {
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+.vid {
+    width: 950px;
+    height: 550px;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.getInTouch {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.first-side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+/* .second-side {
+    padding: 0 80px;
+} */
+
+.first-side h2 {
+    color: #4255A4;
+    font-weight: 500;
+}
+
+.first-side textarea {
+    width: 500px;
+    height: 150px;
+    padding: 5px;
+    border: 1px solid #e5e6e9;
+    color: #e5e6e9;
+}
+
+.first-side .name-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-side .name-email input {
+    width: 240px;
+    height: 35px;
+    padding: 5px;
+    margin: 20px 20px 20px 0;
+    border: 1px solid #e5e6e9;
+    color: #e5e6e9;
+}
+
+.first-side .input-subject {
+    width: 500px;
+    height: 35px;
+    color: #e5e6e9;
+    border: 1px solid #e5e6e9;
+    padding: 5px;
+}
+
+.first-side button {
+    width: 120px;
+    height: 50px;
+    margin: 20px 0 0 0;
+    background-color: white;
+    color: #C86FFF;
+    border: 1px solid #C86FFF;
+    transition: .2s linear;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.first-side button:hover {
+    color: #fff;
+    background-color: #C86FFF;
+}
+
+.second-side {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.second-side .c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.second-side .c .icon {
+    font-size: 26px;
+    color: #8f9195;
+    margin-right: 10px;
+}
+
+.second-side .info-send h3 {
+    color: #2a2a2a;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.second-side .info-send p {
+    color: #8a8a8a;
+    font-size: 12px;
+
+}
+
+@media screen and (max-width:450px) {
+    .getInTouch {
+        margin-left: -40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .contSecond .vid {
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 200px;
+    }
+
+    .first-side {
+        width: 100%;
+    }
+
+    .getInTouch .first-side h2 {
+        width: 200px;
+    }
+
+    .getInTouch .first-side textarea {
+        width: 100%;
+    }
+
+    .getInTouch .first-side .name-email {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .getInTouch .first-side .name-email input {
+        width: 100%;
+    }
+
+    .getInTouch .first-side .input-subject {
+        width: 100%;
+    }
+}

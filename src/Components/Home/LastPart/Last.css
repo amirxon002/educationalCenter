@@ -1,0 +1,157 @@
+.lastContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-img-side-last {
+    margin: 50px;
+    width: 626px;
+    height: 417px;
+}
+
+.left-img-side-last img {
+    border-radius: 8px;
+}
+
+.lastContainer .right-text-side h1 {
+    font-size: 28px;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.lastContainer .right-text-side {
+    width: auto;
+    height: auto;
+}
+
+.right-text-side h1 {
+    font-size: 34px;
+    letter-spacing: 3px;
+    color: #4255a4;
+    margin-bottom: 32px;
+}
+
+.right-text-side p {
+    color: rgb(60, 60, 60);
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.right-text-side .Join-btn {
+    width: 160px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff9f67;
+    color: white;
+    transition: .2s linear;
+}
+
+.right-text-side .Join-btn:hover {
+    background-color: #6f42c1;
+}
+
+
+@media screen and (max-width: 900px) {
+    .lastContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .lastContainer .right-text-side {
+        width: 30%;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .lastContainer .right-text-side h1 {
+        line-height: 30px;
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .lastContainer .right-text-side p {
+        line-height: 20px;
+        width: 300px;
+        width: 100%;
+    }
+
+    .lastContainer .left-img-side-last {
+        width: 438.2px;
+        height: 291.9px;
+        margin: 0;
+
+    }
+
+    .lastContainer .left-img-side-last {
+        opacity: .8 ;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .lastContainer .left-img-side-last {
+        opacity: .35;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .lastContainer {
+        position: relative;
+    }
+
+    .left-img-side-last {
+        position: absolute;
+        z-index: 9;
+    }
+
+    .lastContainer .right-text-side {
+        position: absolute;
+        z-index: 11;
+        left: 0px;
+        top: 0;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .lastContainer .right-text-side {
+        top: 120px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .right-text-side {
+        top: 50px;
+    }
+
+    .lastContainer .right-text-side {
+        top: 110px;
+    }
+}   
+
+@media screen and (max-width:375px) {
+    .lastContainer .right-text-side {
+        top: -50px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .right-text-side {
+        width: 360px;
+        left: 0;
+        top: 0;
+    }
+
+    .right-text-side p {
+        width: 100%;
+    }
+
+    .right-text-side h1 {
+        font-size: 22px;
+    }
+}
+

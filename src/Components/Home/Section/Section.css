@@ -1,0 +1,94 @@
+.container12 {
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+}
+
+.container12 h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 0 10px;
+}
+
+.animated-course {
+    width: 270px;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0 0 15px -10px;
+    padding: 5px 5px 10px 5px;
+}
+
+.animated-course img {
+    width: 100%;
+    height: auto;
+}
+
+.animated-course .text-area2 h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+.animated-course .text-area2 p{
+    font-size: 14px;
+}
+.animated-course .bottom-part {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.animated-course .bottom-part .rate .comment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animated-course .button {
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border: 1px skyblue solid;
+    border-radius: 4px;
+    background-color: white;
+    transition: .25s linear;
+}
+
+.animated-course .button a {
+    text-decoration: none;
+    color: skyblue;
+    font-weight: 600;
+}
+
+.animated-course:hover .button {
+    background-color: #ff9F67;
+}
+
+.animated-course:hover .button a {
+    color: white;
+}
+
+@media screen and (max-width:450px){
+    .container12 {
+        margin-top: 125px;
+    }
+
+    .row {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+}

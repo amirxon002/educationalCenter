@@ -1,0 +1,141 @@
+.container3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    color: #4255A4;
+    margin-left: 100px;
+}
+
+.left-side .icon-svg {
+    padding: 15px;
+    background-image: linear-gradient(to bottom right, rgb(166, 0, 255), rgb(255, 0, 238), pink);
+    border-radius: 50%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side .icon-svg .icon-rise {
+    color: white;
+    font-size: 40px;
+}
+
+.left-side .infoTeaxtArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.left-side .infoTeaxtArea h1 {
+    font-size: 30px;
+    color: #4255A4;
+    font-weight: 500;
+}
+
+.right-side {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side .icon-video {
+    font-size: 32px;
+    background-color: orange;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+}
+
+
+@media screen and (max-width:450px){
+    .container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 240px;
+    }
+
+    .left-side {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .left-side .infoTeaxtArea h1 {
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .left-side .infoTeaxtArea .p {
+        width: 200px;
+        height: 416px;
+        overflow: scroll;
+        margin: auto;
+        /* border: 1px solid rgb(185, 185, 185);     */
+        padding: 5px;
+        border-radius: 8px;
+        box-shadow: 0px 25px 60px rgba(66,85,164,0.06);
+        font-size: 13px;
+    }
+
+    .right-side {
+        height: 35vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 170px;
+    }
+
+    .infoTeaxtArea {
+        margin-top: -200px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .container3 {
+        position: relative;
+    }
+
+    .icon-svg {
+        position: absolute;
+        top: -180px;
+    }
+
+    .infoTeaxtArea {
+        position: absolute;
+        left: 0;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .container3 {
+        margin-top: 120px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .icon-svg {
+        opacity: .3;
+    }
+}
